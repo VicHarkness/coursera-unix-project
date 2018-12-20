@@ -7,7 +7,7 @@ readme:
 	echo "This file was ran at " >> README.md
 	date >> README.md
 	echo "It contains this many lines" >> README.md
-	wc -l README.md < README.md
+	wc -l README.md >> README.md
 
 clean:
 	rm README.md
